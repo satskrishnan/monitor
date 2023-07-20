@@ -1,6 +1,6 @@
 ### Health Check App
 
-Expose finacle application health checks as prometheus endpoint.
+Expose application health checks as prometheus endpoint.
 
 Create the below config map.
 
