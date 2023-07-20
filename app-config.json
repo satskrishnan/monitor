@@ -1,0 +1,12 @@
+{
+    "applications": [
+        {
+            "name": "APIHUB",
+            "url": "https://apihazure.usw.evoncloud.com/apih/actuator/health/readiness"
+        },
+        {
+            "name": "FINBRANCH-AC",
+            "url": "https://finazure.usw.evoncloud.com/finbranch-ac/samples/finAnalyzer.jsp?GetStatus=L"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-app-service
+spec:
+  selector:
+    app: node-app # Should match the label of your Deployment
+  ports:
+    - protocol: TCP
+      port: 80 # Port you want to access on the nodes
+      targetPort: 3000 # Port on which the Node.js application is running inside the container
+  type: NodePort # Expose the Service on a specific port on each node in the cluster
